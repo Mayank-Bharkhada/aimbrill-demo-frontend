@@ -60,7 +60,7 @@ const linkStyle = {
   padding: "5px",
   paddingTop: "20px",
   width: "15%",
-  backgroundColor: "blue",
+  backgroundColor: "#4a3aff",
 };
 
 const footerStyle = {

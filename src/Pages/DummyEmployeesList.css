@@ -1,0 +1,94 @@
+/* DummyEmployeesList.css */
+.employee-list-container{
+    border: 1px solid #ddd;
+    margin:1%;
+}
+/* Style for the entire table */
+.table-container {
+    overflow-x: auto; /* Add horizontal scroll for small screens */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    /* border: 1px solid #ddd; */
+  }
+  
+  table.additionalInfo{
+        margin-left: 12%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: smaller;
+        width: 88%;
+        border: none;
+  }
+
+  /* Style for table header */
+  th {
+    /* background-color: #f2f2f2; */
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    /* border: 1px solid #ddd; */
+  }
+  
+  /* Style for table data cells */
+  td {
+    padding: 5px;
+    /* border: 1px solid #ddd; */
+  }
+  
+  i{
+    margin:5px;
+    color: #aaa;
+  }
+
+  /* Style for the "Select" column */
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  /* Style for the expand/collapse button */
+  button.moreInfo {
+    margin-left: 30%;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /* Style for expanded row */
+  .expanded-row {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* ... (previous CSS) */
+
+/* Style for the pagination container */
+.pagination-container{
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    justify-content: space-around; /* Center horizontally */
+    align-items: center;
+}
+  
+.checked-row {
+  background-color: #f1f1f1; /* Change to your desired background color */
+}
+
+input.checked-row{
+  color: aqua;
+}
+
+label.serchPageLabel{
+  margin:5px
+}
+
+.serchPageBox{
+  margin:5px;
+}
